@@ -15,9 +15,9 @@ def ToType(to):
 
 	typees = ['jpg', 'jpeg', 'png', 'webp']
 
-	if to in typees:
-		return True
-	return False
+	typees = ['jpg', 'jpeg', 'png', 'webp']
+
+	return True if to in typees else False
 
 
 def TypeAlreadyExest():
