@@ -14,7 +14,7 @@ follw this steps:
 <br>
 3.to jpg/jpeg/png/webp/gif : (here you will enter what the type ypu want to convert to for example png)
 
-![Programmer and Problems solver](https://github.com/hamza07-w/hamza07-w/blob/main/hamzaansari.jpg)
+![Programmer and Problems solver](https://github.com/hamza07-w/img_type_converter/blob/main/exo.bmp)
 ## __🦅how can I see the result?__
 
 go to same file of the script you will find the picture named img.(type you have chosed)
