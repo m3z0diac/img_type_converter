@@ -53,9 +53,13 @@ def convert(url, toType):
 	if isTypeTrue(url):
 
 		geturl = requests.get(url)
+		try:
 
-		with open(f'img.{toType}', 'wb') as f:
-			f.write(geturl.content)
+			with open(f'img.{toType}', 'wb') as f:
+				f.write(geturl.content)
+
+		except:
+			print("error! type not found!")
 
 		return "The picture converted seccessfuly!"
 
